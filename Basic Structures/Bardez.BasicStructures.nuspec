@@ -13,10 +13,12 @@
     <copyright></copyright>
     <language>en-GB</language>
     <tags>Reusable</tags>
+    <dependencies>
+      <dependency id="Bardez.ReusableCode" version="1.0.0" />
+    </dependencies>
   </metadata>
   <files>
     <file src="**/*.cs" target="src/" />
-    <file src="bin\Debug\*.dll" target="lib/net40/" />
-    <file src="bin\Debug\*.pdb" target="lib/net40/" />
+    <file src="bin\Debug\Basic Structures.*" target="lib/net40/" />
   </files>
 </package>
